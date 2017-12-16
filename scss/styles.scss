@@ -1,10 +1,10 @@
-/* 
+/*
 
 footer: dark-blue #0c2745
 
 background: blue #213c5c
 
-donate button: orange #d6760d 
+donate button: orange #d6760d
 
 blue: #224565;
 
@@ -12,9 +12,12 @@ body background: off-white #fefcfd
 
 */
 
-#aside-link {
-  padding-left: 25px;
-}
+@import 'components/variables';
+@import 'components/navbar';
+@import 'components/sidebar';
+@import 'components/footer';
+
+
 
 #bhs-logo {
   z-index: 2;
@@ -26,7 +29,7 @@ body {
   width: 960px !important;
   font-family: "Arial", sans-serif !important;
   padding: 0px !important;
-  
+
 }
 
 .body-padding {
@@ -34,7 +37,7 @@ body {
 }
 
 .card-block {
-  background-color: #e9e8e8;
+  background-color: $grey;
 }
 
 .container {
@@ -52,22 +55,7 @@ body {
 }
 /* Set black background color, white text and some padding */
 
-footer {
-  background-color: #0c2745;
-  color: white;
-  padding: 15px;
-  margin-left: 0px !important;
-  height: auto;
-  width: 960px !important;
-}
 
-.footer-font {
-  font-size: 10.5px !important;
-}
-
-footer>img {
-  float: center;
-}
 
 h1,
 h2,
@@ -140,19 +128,6 @@ a {
   height: 450px
 }
 
-.sidenav {
-  height: auto;
-  padding: 15px;
-  padding-top: 90px;
-  background-color: #fbfbfb !important;
-  width: 260px;
-}
-
-.side-img {
-  height: 100%;
-  width: auto;
-}
-
 .top {
   background-color: #0c2745;
   margin: 0px !important;
@@ -172,44 +147,4 @@ a {
   font-size: 25px;
   font-family: "adobe-caslon-pro", serif;
 }
-/* NAVBAR */
 
-li {
-  float: left;
-}
-
-li a {
-  display: block;
-  color: #515152 !important;
-  text-align: center;
-  text-decoration: none;
-  font-size: 11px;
-  font: "Arial", sans-serif;
-}
-
-li a:hover {
-  color: #d4740d !important;
-  text-decoration: none;
-}
-
-.main-nav {
-  font-size: 13px !important;
-  z-index: 100;
-  position: absolute;
-  left: 90px;
-  top: 30px;
-}
-
-#nav-img {
-  background-image: url("../img/navbar.png");
-  position: absolute;
-  z-index: 1;
-}
-
-ul {
-  list-style-type: none;
-  margin-bottom: 100px;
-  padding: 0;
-  overflow: hidden;
-}
-/* END NAVBAR */

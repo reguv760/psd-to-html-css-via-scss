@@ -1,0 +1,24 @@
+.top {
+  background-color: #0c2745;
+  margin: 0px;
+
+  &__item {
+      float: left;
+  }
+
+  &__link {
+    display: block;
+    color: $orange;
+    text-align: center;
+    text-decoration: none;
+
+    &:hover {
+      color: $off-white;
+      text-decoration: underline;
+    }
+  }
+
+  &__img {
+    margin: 1.5rem 0px 0px 7.8rem;
+  }
+}

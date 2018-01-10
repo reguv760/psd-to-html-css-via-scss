@@ -1,0 +1,18 @@
+.top {
+  background-color: $dark-blue;
+
+  &__item {
+    float: left;
+  }
+
+  &__link {
+    display: block;
+    color: $orange;
+    text-decoration: none;
+
+    &:hover {
+      color: $off-white;
+      text-decoration: underline;
+    }
+  }
+}

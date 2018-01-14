@@ -1,0 +1,2 @@
+use PSD to convert [left hand <aside> section] to HTML 
+using Phil's HTML structure [restructure, BEM, prettify]

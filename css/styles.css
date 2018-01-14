@@ -100,10 +100,50 @@ ul {
 .sidenav {
   padding: 1.5rem;
   background-color: #fbfbfb;
-  width: 26rem; }
+  width: 26rem;
+  /* Get Involved~ */ }
+  .sidenav__header--yellow {
+    color: #d4740d; }
+  .sidenav__header--blue {
+    color: #0c2745; }
+  .sidenav__topmenu-link a {
+    text-align: left;
+    color: #173f6b;
+    font-weight: 600;
+    font-size: 1.1rem; }
+  .sidenav__secondmenu-link {
+    width: 100%; }
+  .sidenav__secondmenu-link a {
+    padding: 0 1rem;
+    text-align: left;
+    color: #173f6b;
+    font-weight: 600;
+    font-size: 1.5rem; }
 
-.aside-link {
-  padding-left: 25px; }
+/* card-block section */
+.card-block {
+  background-color: #e9e8e8;
+  margin-bottom: 2rem; }
+  .card-block__inline {
+    display: inline-block; }
+  .card-block__side-img {
+    float: left;
+    margin: 0 0 0 1rem; }
+  .card-block__text {
+    font-size: 1.1rem;
+    line-height: 125%; }
+  .card-block__text-link {
+    text-decoration: underline; }
+  .card-block__text-link:hover {
+    text-decoration: none;
+    color: #213c5c; }
+
+/* donate button */
+.donatebutton {
+  margin: 1rem auto;
+  text-align: center; }
+  .donatebutton__image {
+    width: 90%; }
 
 footer {
   background-color: #0c2745;
@@ -113,9 +153,6 @@ footer {
 
 .footer-font {
   font-size: 10.5px !important; }
-
-.card-block {
-  background-color: #e9e8e8; }
 
 /* Set black background color, white text and some padding */
 .outer-main {

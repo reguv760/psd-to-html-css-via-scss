@@ -1,16 +1,117 @@
 .sidenav {
-  height: auto;
-  padding: 15px;
-  padding-top: 90px;
-  background-color: #fbfbfb !important;
-  width: 260px;
+  padding: 1.5rem;
+  background-color: $off-white;
+  width: 26rem;
+
+  &__header
+  {
+
+  }
+
+  &__header--yellow
+  {
+    color:$yellow;
+  }
+
+  &__header--blue
+  {
+    color:$dark-blue;
+  }
+
+  &__topmenu
+  {
+  }
+
+  &__topmenu-link
+  {
+  }
+
+  &__topmenu-link a
+  {
+    text-align: left;
+    color:$lightest-blue;
+    font-weight:600;
+    font-size:1.1rem;
+  }
+
+  &__topmenu-link a:hover
+  {
+  }
+
+  /* Get Involved~ */
+  &__secondmenu
+  {
+  }
+
+  &__secondmenu-link
+  {
+    width:100%;
+  }
+
+  &__secondmenu-link a
+  {
+    padding:0 1rem;
+    text-align: left;
+    color:$lightest-blue;
+    font-weight:600;
+    font-size:1.5rem;
+  }
+
+  &__secondmenu-link a:hover
+  {
+  }
 }
 
-.side-img {
-  height: 100%;
-  width: auto;
+/* card-block section */
+.card-block
+{
+  background-color: $grey;
+  margin-bottom: 2rem;
+
+  &__inline
+  {
+    display: inline-block;
+  }
+
+  &__side-img
+  {
+    float:left;
+    margin:0 0 0 1rem;
+  }
+
+  &__text
+  {
+    font-size:1.1rem;
+    line-height:125%;
+  }
+
+  &__text-link
+  {
+    text-decoration:underline;
+  }
+
+  &__text-link:hover
+  {
+    text-decoration:none;
+    color:$light-blue;
+  }
 }
 
-.aside-link {
-  padding-left: 25px;
+/* donate button */
+.donatebutton
+{
+  margin:1rem auto;
+  text-align: center;
+
+  &__link
+  {
+
+  }
+
+  &__image
+  {
+    width:90%;
+  }
 }
+
+

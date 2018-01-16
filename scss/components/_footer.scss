@@ -1,16 +1,14 @@
 footer {
-  background-color: #0c2745;
-  color: white;
-  padding: 15px;
-  margin-left: 0px !important;
+  background-color: $dark-blue;
+  color: $white;
+  padding: 1.5rem;
   height: auto;
-  width: 960px !important;
 }
 
 .footer-font {
   font-size: 10.5px !important;
 }
 
-footer>img {
-  float: center;
-}
+// footer>img {
+//   float: center;
+// }

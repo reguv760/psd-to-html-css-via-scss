@@ -1,0 +1,58 @@
+html {
+  font-size: 62.5%;  // 10px
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  background-color: $background-blue;
+  font-size: 1.6rem;
+}
+
+h1,
+h2,
+h3,
+h5,
+h6 {
+  color: #d4740d;
+}
+
+h1 {
+  font-size: 2rem;
+  color: $dark-blue;
+  font-family: "adobe-caslon-pro", serif;
+  font-style: normal;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 1.7rem;
+  color: $dark-blue;
+  font-family: "adobe-caslon-pro", serif;
+  font-style: normal;
+  font-weight: 500;
+}
+
+h3 {
+  font-size: 1.9rem;
+  color: $dark-blue;
+}
+
+h4 {
+  font-size: 1.2rem;
+  text-align: center;
+  background-image: url("../img/footer-bg.png");
+  padding: 5px 0px 5px 0px;
+}
+
+hr {
+  margin: 5px 0px 10px 0px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  font-size: 11px !important;
+}
+

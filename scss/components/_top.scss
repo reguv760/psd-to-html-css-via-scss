@@ -1,39 +1,73 @@
 .top {
   background-color: $dark-blue;
   margin: 0;
-}
+  height: 100px;
+  width: 960px;
+  display: inline-block;
 
-.top-img {
-  padding: 0;
-  margin: 1.5rem 0 0 7.8rem;
-}
+  &__logo {
+    z-index: 2;
+    padding: 5px;
+    float: left;
+    position: absolute;
+  }
 
-#top-right {
-  position: absolute;
-  top: 9rem;
-  right: 4rem;
-  z-index: 5;
-  color: $off-white;
-  font-size: 2.5rem;
-  font-family: "adobe-caslon-pro", serif;
-}
-.top {
-  background-color: $dark-blue;
-  margin: 0;
-}
+  &__item {
+    z-index: 1;
+    float: left;
+    position: relative;
+    top: 10px;
+  }
 
-.top-img {
-  padding: 0;
-  margin: 1.5rem 0 0 7.8rem;
-}
+  &__facebook {
+    padding-left: 10px;
+    position: relative;
+    left: 80px;
+    top: -5px;
+  }
 
-#top-right {
-  position: absolute;
-  top: 9rem;
-  right: 4rem;
-  z-index: 5;
-  color: $off-white;
-  font-size: 2.5rem;
-  font-family: "adobe-caslon-pro", serif;
-}
+  &__link {
+    display: block;
+    color: $off-white;
+    text-decoration: none;
+    position: relative;
+    left: 70px;
+    border-right: solid $off-white 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+    //the two paddings are for the space between the bars
 
+  &:hover {
+    color: $orange;
+    text-decoration: underline;
+    }
+  }
+
+  &__search {
+    position: relative;
+    left: 100px;
+    top: -15px;
+  }
+
+  &__donate-arrow {
+    float: right;
+    position: relative;
+    top: -5px;
+  }
+
+  &__navbar {
+    position: relative;
+    top: -10px;
+    }
+
+ p {
+    display: inline;
+    color: $charcoal;
+    position: relative;
+    left: 160px;
+    top: -50px;
+    font-size: 1.1rem;
+    padding-right: 60px;
+  }
+
+}

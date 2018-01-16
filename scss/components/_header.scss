@@ -1,0 +1,33 @@
+.header {
+  padding: 1rem 0;
+  display: flex;
+  justify-content: flex-end;
+  // position: relative;
+  background-color: red;
+  align-items: center;
+  
+  &__logo {
+    // position: absolute;
+    // top: 0;
+    // left: 0;
+    // z-index: 2;
+  }
+  
+  &__nav {
+
+    a {
+      color: $white; 
+    }
+
+    li {
+      padding-right: 1.5rem;
+    }
+  }
+
+  &__social-media {
+
+  }
+
+}
+
+

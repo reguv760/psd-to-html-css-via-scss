@@ -442,16 +442,56 @@ li {
   margin: 0 auto; }
 
 .top {
-  background-color: #0c2745; }
+  background-color: #0c2745;
+  height: 100px;
+  width: 960px;
+  display: inline-block; }
+  .top__logo {
+    z-index: 2;
+    padding: 5px;
+    float: left;
+    position: absolute; }
   .top__item {
-    float: left; }
+    z-index: 1;
+    float: left;
+    position: relative;
+    top: 10px; }
+  .top__facebook {
+    padding-left: 10px;
+    position: relative;
+    left: 80px;
+    top: -5px; }
   .top__link {
     display: block;
-    color: #d6760d;
-    text-decoration: none; }
+    color: #fefcfd;
+    text-decoration: none;
+    position: relative;
+    left: 70px;
+    border-right: solid #fefcfd 1px;
+    padding-left: 10px;
+    padding-right: 10px; }
     .top__link:hover {
-      color: #fefcfd;
+      color: #d6760d;
       text-decoration: underline; }
+  .top__search {
+    position: relative;
+    left: 100px;
+    top: -15px; }
+  .top__donate-arrow {
+    float: right;
+    position: relative;
+    top: -5px; }
+  .top__navbar {
+    position: relative;
+    top: -10px; }
+  .top p {
+    display: inline;
+    color: #646464;
+    position: relative;
+    left: 160px;
+    top: -50px;
+    font-size: 1.1rem;
+    padding-right: 60px; }
 
 #bhs-logo {
   z-index: 2;

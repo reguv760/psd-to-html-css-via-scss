@@ -1,26 +1,23 @@
 @import 'base/variables';
-@import 'base/reset';
 @import 'base/base';
-@import 'components/base';
 @import 'components/wrapper';
-@import 'components/container';
 @import 'components/top';
 @import 'components/header';
 @import 'components/navbar';
 @import 'components/sidebar';
-@import 'components/main';
 @import 'components/footer';
 
 /* Set black background color, white text and some padding */
 
-.outer-main {
-  background-color: $light-blue;
-  font-size: 1rem;
-  height: 5.6rem;
-  color: $white;
-}
+// .outer-main {
+//   background-color: $light-blue;
+//   font-size: 1rem;
+//   height: 5.6rem;
+//   color: $white;
+// }
 
-.row.content {
-  height: 45rem;
-}
+// .row.content {
+//   height: 45rem;
+// }
+
 

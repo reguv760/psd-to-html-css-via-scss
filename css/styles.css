@@ -51,73 +51,21 @@ a {
   font-size: 1.2rem;
   font-family: "Arial", sans-serif; }
 
+img {
+  max-width: 100%; }
+
 .wrapper {
   position: relative; }
   .wrapper__logo {
     position: absolute;
     z-index: 20; }
 
-.top {
-  background-color: #0c2745;
-  height: 100px;
-  width: 960px;
-  display: inline-block; }
-  .top__logo {
-    z-index: 2;
-    padding: 5px;
-    float: left;
-    position: absolute; }
-  .top__item {
-    z-index: 1;
-    float: left;
-    position: relative;
-    top: 10px; }
-  .top__facebook {
-    padding-left: 10px;
-    position: relative;
-    left: 80px;
-    top: -5px; }
-  .top__link {
-    display: block;
-    color: #fbfbfb;
-    text-decoration: none;
-    position: relative;
-    left: 70px;
-    border-right: solid #fbfbfb 1px;
-    padding-left: 10px;
-    padding-right: 10px; }
-    .top__link:hover {
-      color: #d4740d;
-      text-decoration: underline; }
-  .top__search {
-    position: relative;
-    left: 100px;
-    top: -15px; }
-  .top__donate-arrow {
-    float: right;
-    position: relative;
-    top: -5px; }
-  .top__navbar {
-    position: relative;
-    top: -10px; }
-  .top p {
-    display: inline;
-    color: #444;
-    position: relative;
-    left: 160px;
-    top: -50px;
-    font-size: 1.1rem;
-    padding-right: 60px; }
-
 .header {
-  padding: 1rem 0;
   display: flex;
-  justify-content: flex-end;
-  background-color: red;
-  align-items: center; }
-  .header__nav a {
+  justify-content: space-evenly; }
+  .header__nav--top a {
     color: #ffffff; }
-  .header__nav li {
+  .header__nav--top li {
     padding-right: 1.5rem; }
 
 ul {
@@ -199,6 +147,10 @@ footer {
 
 .footer-font {
   font-size: 10.5px !important; }
+
+.copyright {
+  color: #fbfbfb;
+  text-align: center; }
 
 /* Set black background color, white text and some padding */
 

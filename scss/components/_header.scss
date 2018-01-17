@@ -1,22 +1,19 @@
 .header {
-  padding: 1rem 0;
-  display: flex;
-  justify-content: flex-end;
-  // position: relative;
-  background-color: red;
-  align-items: center;
+  display:flex;
+  justify-content: space-between;
+  // &__logo {
+  // }
 
-  &__logo {
-    // position: absolute;
-    // top: 0;
-    // left: 0;
-    // z-index: 2;
+  &__logo
+  {
+    width:119px;
+    height:119px;
   }
 
-  &__nav {
+  &__nav--top {
 
     a {
-      color: $white;
+      color:$off-white;
     }
 
     li {
@@ -24,8 +21,22 @@
     }
   }
 
-  &__social-media {
+  &__facebook
+  {
+    width:126px;
+    height:40px;
+  }
 
+  &__search
+  {
+    width:256px;
+    height:29px;
+  }
+
+  &__donate-button
+  {
+    width:242px;
+    height:34px;
   }
 
 }

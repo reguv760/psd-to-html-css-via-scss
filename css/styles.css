@@ -51,6 +51,9 @@ a {
   font-size: 1.2rem;
   font-family: "Arial", sans-serif; }
 
+img {
+  max-width: 100%; }
+
 .wrapper {
   position: relative; }
   .wrapper__logo {
@@ -110,15 +113,24 @@ a {
     padding-right: 60px; }
 
 .header {
-  padding: 1rem 0;
   display: flex;
-  justify-content: flex-end;
-  background-color: red;
-  align-items: center; }
-  .header__nav a {
-    color: #ffffff; }
-  .header__nav li {
+  justify-content: space-between; }
+  .header__logo {
+    width: 119px;
+    height: 119px; }
+  .header__nav--top a {
+    color: #fbfbfb; }
+  .header__nav--top li {
     padding-right: 1.5rem; }
+  .header__facebook {
+    width: 126px;
+    height: 40px; }
+  .header__search {
+    width: 256px;
+    height: 29px; }
+  .header__donate-button {
+    width: 242px;
+    height: 34px; }
 
 ul {
   list-style-type: none;
@@ -199,6 +211,10 @@ footer {
 
 .footer-font {
   font-size: 10.5px !important; }
+
+.copyright {
+  color: #fbfbfb;
+  text-align: center; }
 
 /* Set black background color, white text and some padding */
 

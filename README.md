@@ -2,7 +2,6 @@
 
 ## What we are building
 * [Link to PSD](https://github.com/kingluddite/psd-to-html-css-via-scss/blob/master/img/bhs_mockup_approved1.psd)
- 
 ## Description
 * Practice project to show the conversion from PSD to modern HTML5 and CSS
   using Sass
@@ -25,6 +24,20 @@ build tools like gulp and grunt. The newest and most build tool is webpack
 `$ git clone https://github.com/kingluddite/psd-to-html-css-via-scss.git`
 
 * `$ cd psd-to-html-css-via-scss`
+
+## Clone specific remote branch
+## How do I pull down a specific branch?
+1. Get the name of all the branches
+
+`$ git branch -a`
+
+1. Fetch branch
+
+`$ git fetch <remote> <rbranch>:<lbranch>`
+
+3. Checkout that branch
+
+`$ git checkout <lbranch>`
 
 ## Install all dependencies
 `$ yarn install`

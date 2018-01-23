@@ -1,221 +1,79 @@
-html {
-  font-size: 62.5%; }
+/*
+Error: Invalid CSS after "...7bde1491f5af2f9": expected "{", was "}"
+        on line 84 of scss/base/_base.scss
+        from line 2 of scss/styles.scss
 
-/* https://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
-/* end of paul irish border-box tip */
-body {
-  font-family: "Arial", sans-serif;
-  font-size: 1.6rem;
-  background-color: #213c5c; }
+79: =======
+80: img {
+81:   max-width: 100%;
+82:   // height: auto;
+83: >>>>>>> 9e95e737c5cac0b808de2b2927bde1491f5af2f9
+84: }
 
-h1,
-h2,
-h3,
-h5,
-h6 {
-  color: #d4740d; }
-
-h1 {
-  font-size: 2rem;
-  color: #1e1d1d;
-  font-family: "adobe-caslon-pro", serif;
-  font-style: normal;
-  font-weight: 600; }
-
-h2 {
-  font-size: 1.7rem;
-  color: #d4740d;
-  font-family: "adobe-caslon-pro", serif;
-  font-style: normal;
-  font-weight: 500; }
-
-h3 {
-  font-size: 1.9rem;
-  color: #173f6b; }
-
-h4 {
-  font-size: 1.2rem;
-  text-align: center;
-  background-image: url("../img/footer-bg.png");
-  padding: 0.5rem 0 0.5rem 0; }
-
-hr {
-  margin: 0.5rem 0 1rem 0; }
-
-li {
-  font-size: 1.1rem; }
-
-p,
-ul,
-a {
-  font-size: 1.2rem;
-  font-family: "Arial", sans-serif; }
-
-img {
-  max-width: 100%; }
-
-.wrapper {
-  position: relative; }
-  .wrapper__logo {
-    position: absolute;
-    z-index: 20; }
-
-.top {
-  background-color: #0c2745;
-  height: 100px;
-  width: 960px;
-  display: inline-block; }
-  .top__logo {
-    z-index: 2;
-    padding: 5px;
-    float: left;
-    position: absolute; }
-  .top__item {
-    z-index: 1;
-    float: left;
-    position: relative;
-    top: 10px; }
-  .top__facebook {
-    padding-left: 10px;
-    position: relative;
-    left: 80px;
-    top: -5px; }
-  .top__link {
-    display: block;
-    color: #fbfbfb;
-    text-decoration: none;
-    position: relative;
-    left: 70px;
-    border-right: solid #fbfbfb 1px;
-    padding-left: 10px;
-    padding-right: 10px; }
-    .top__link:hover {
-      color: #d4740d;
-      text-decoration: underline; }
-  .top__search {
-    position: relative;
-    left: 100px;
-    top: -15px; }
-  .top__donate-arrow {
-    float: right;
-    position: relative;
-    top: -5px; }
-  .top__navbar {
-    position: relative;
-    top: -10px; }
-  .top p {
-    display: inline;
-    color: #444;
-    position: relative;
-    left: 160px;
-    top: -50px;
-    font-size: 1.1rem;
-    padding-right: 60px; }
-
-.header {
-  display: flex;
-  justify-content: space-between; }
-  .header__logo {
-    width: 119px;
-    height: 119px; }
-  .header__nav--top a {
-    color: #fbfbfb; }
-  .header__nav--top li {
-    padding-right: 1.5rem; }
-  .header__facebook {
-    width: 126px;
-    height: 40px; }
-  .header__search {
-    width: 256px;
-    height: 29px; }
-  .header__donate-button {
-    width: 242px;
-    height: 34px; }
-
-ul {
-  list-style-type: none;
-  padding: 0;
-  overflow: hidden; }
-  ul li {
-    float: left; }
-    ul li a {
-      display: block;
-      color: #515152;
-      text-align: center;
-      text-decoration: none;
-      font-size: 11px;
-      font: "Arial", sans-serif; }
-      ul li a:hover {
-        color: #d4740d;
-        text-decoration: none; }
-
-.main-nav {
-  position: relative;
-  background: url("./../img/navbar.png");
-  background-color: #e9e8e8;
-  height: 71px; }
-
-.sidenav {
-  padding: 1.5rem;
-  background-color: #fbfbfb;
-  width: 26rem;
-  /* Get Involved~ */ }
-  .sidenav__header--yellow {
-    color: #d4740d; }
-  .sidenav__header--blue {
-    color: #0c2745; }
-  .sidenav__topmenu-link a {
-    text-align: left;
-    color: #173f6b;
-    font-weight: 600;
-    font-size: 1.1rem; }
-  .sidenav__secondmenu-link {
-    width: 100%; }
-  .sidenav__secondmenu-link a {
-    padding: 0 1rem;
-    text-align: left;
-    color: #173f6b;
-    font-weight: 600;
-    font-size: 1.5rem; }
-
-/* card-block section */
-.card-block {
-  background-color: #e9e8e8;
-  margin-bottom: 2rem; }
-  .card-block__inline {
-    display: inline-block; }
-  .card-block__side-img {
-    float: left;
-    margin: 0 0 0 1rem; }
-  .card-block__text {
-    font-size: 1.1rem;
-    line-height: 125%; }
-  .card-block__text-link {
-    text-decoration: underline; }
-  .card-block__text-link:hover {
-    text-decoration: none;
-    color: #213c5c; }
-
-/* donate button */
-.donatebutton {
-  margin: 1rem auto;
-  text-align: center; }
-  .donatebutton__image {
-    width: 90%; }
-
-footer {
-  background-color: #0c2745;
-  color: #ffffff;
-  padding: 1.5rem;
-  height: auto; }
-
-.footer-font {
-  font-size: 10.5px !important; }
-
-.copyright {
-  color: #fbfbfb;
-  text-align: center; }
-
-/* Set black background color, white text and some padding */
-
-/*# sourceMappingURL=styles.css.map */
+Backtrace:
+scss/base/_base.scss:84
+scss/styles.scss:2
+D:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/scss/parser.rb:1278:in `expected'
+D:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/scss/parser.rb:1208:in `expected'
+D:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/scss/parser.rb:1203:in `tok!'
+D:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/scss/parser.rb:677:in `block'
+D:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/scss/parser.rb:747:in `declaration_or_ruleset'
+D:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/scss/parser.rb:697:in `block_child'
+D:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/scss/parser.rb:689:in `block_contents'
+D:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/scss/parser.rb:678:in `block'
+D:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/scss/parser.rb:747:in `declaration_or_ruleset'
+D:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/scss/parser.rb:697:in `block_child'
+D:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/scss/parser.rb:689:in `block_contents'
+D:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/scss/parser.rb:678:in `block'
+D:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/scss/parser.rb:670:in `ruleset'
+D:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/scss/parser.rb:696:in `block_child'
+D:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/scss/parser.rb:689:in `block_contents'
+D:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/scss/parser.rb:137:in `stylesheet'
+D:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/scss/parser.rb:41:in `parse'
+D:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/engine.rb:414:in `_to_tree'
+D:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/engine.rb:321:in `to_tree'
+D:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/tree/visitors/perform.rb:327:in `block in visit_import'
+D:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/stack.rb:88:in `block in with_import'
+D:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/stack.rb:135:in `with_frame'
+D:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/stack.rb:88:in `with_import'
+D:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/tree/visitors/perform.rb:326:in `visit_import'
+D:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/tree/visitors/base.rb:36:in `visit'
+D:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+D:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/stack.rb:79:in `block in with_base'
+D:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/stack.rb:135:in `with_frame'
+D:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/stack.rb:79:in `with_base'
+D:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/tree/visitors/perform.rb:162:in `visit'
+D:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+D:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/tree/visitors/base.rb:52:in `map'
+D:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+D:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/tree/visitors/perform.rb:171:in `block in visit_children'
+D:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+D:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/tree/visitors/perform.rb:170:in `visit_children'
+D:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+D:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/tree/visitors/perform.rb:190:in `visit_root'
+D:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/tree/visitors/base.rb:36:in `visit'
+D:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/tree/visitors/perform.rb:161:in `visit'
+D:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/tree/visitors/perform.rb:10:in `visit'
+D:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/tree/root_node.rb:36:in `css_tree'
+D:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+D:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+D:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/engine.rb:307:in `render_with_sourcemap'
+D:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/plugin/compiler.rb:462:in `update_stylesheet'
+D:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+D:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/plugin/compiler.rb:209:in `each'
+D:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+D:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/plugin/compiler.rb:443:in `on_file_changed'
+D:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/plugin/compiler.rb:320:in `block in watch'
+D:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-listen-4.0.0/lib/sass-listen/event/config.rb:23:in `call'
+D:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:115:in `_process_changes'
+D:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:19:in `block in loop_for'
+D:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop'
+D:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop_for'
+D:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:84:in `_wait_for_changes'
+D:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:42:in `block in setup'
+D:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-listen-4.0.0/lib/sass-listen/internals/thread_pool.rb:6:in `block in add'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"...7bde1491f5af2f9\": expected \"{\", was \"}\"\A         on line 84 of scss/base/_base.scss\A         from line 2 of scss/styles.scss\A \A 79: =======\A 80: img {\A 81:   max-width: 100%;\A 82:   // height: auto;\A 83: >>>>>>> 9e95e737c5cac0b808de2b2927bde1491f5af2f9\A 84: }"; }

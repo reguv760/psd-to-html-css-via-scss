@@ -1,4 +1,5 @@
 .header {
+<<<<<<< HEAD
   display:flex;
   justify-content: space-between;
   // &__logo {
@@ -11,7 +12,23 @@
   }
 
   &__nav--top {
+=======
+  display: flex;
+  justify-content: space-evenly;
+  // position: relative;
 
+  // &__logo {
+  //   // position: absolute;
+  //   // top: 0;
+  //   // left: 0;
+  // }
+>>>>>>> 9e95e737c5cac0b808de2b2927bde1491f5af2f9
+
+  &__nav--top {
+    // position: absolute;
+    // top: 10px;
+    // left: 100px;
+    
     a {
       color:$off-white;
     }
@@ -21,6 +38,7 @@
     }
   }
 
+<<<<<<< HEAD
   &__facebook
   {
     width:126px;
@@ -37,8 +55,13 @@
   {
     width:242px;
     height:34px;
+=======
+  &__facebook {
+    // position: absolute;
+    // top: 0;
+    // left: 300px;
+>>>>>>> 9e95e737c5cac0b808de2b2927bde1491f5af2f9
   }
-
 }
 
 

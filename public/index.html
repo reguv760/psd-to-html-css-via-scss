@@ -11,7 +11,7 @@
 
 <body>
   <div class="container">
-    <header class="header">
+    <header class="header item">
             <!-- <img class="header__logo" src="./img/bhs&#45;logo.png" width="119" height="119" /> -->
 
             <nav class="header__nav--top">
@@ -25,99 +25,73 @@
 
             <img class="header__facebook" src="img/facebook.png" alt="facebook
             icon" width="126" height="40" />
-            <img class="top__search" src="img/search.png" width="256"
+            <img class="header__search" src="img/search.png" width="256"
                                                           height="29" alt="search form"
              />
-            <img class="top__donate-arrow" src="img/donate-arrow.png"
+            <img class="header__donate" src="img/donate-arrow.png"
             alt="Donate" width="242" height="34" />
+    </header>
+    <nav class="main-nav">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">What is Addiction</a></li>
+        <li><a href="#">Make an Appointment</li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
 
-            <div class="top__navbar" style="display: none">
-              <img src="./img/navbar.png">
-              <div class="top__navbar-text">
-                <p>HOME</p>
-                <p>ABOUT US</p>
-                <p>SERVICES</p>
-                <p>WHAT IS ADDICTION?</p>
-                <p>MAKE AN APPOINTMENT</p>
-                <p>CONTACT</p>
-              </div>
-            </div>
-            <!-- ./top__navbar -->
-          </div>
-          <!-- ./top -->
-        </header>
+    <aside class="sidebar">
+      <p>This is the sidebar</p>
+      <nav class="sidebar__nav">
+      
+          <ul>
+            <li><a href="#">Community Assessment Services Center</a>
+              <ul>
+                <li><a href="#">Prevention &amp; Services for Older Adults</a></li>
+                <li><a href="#">BHS/Medicine Education Program</a></li>
+                <li<a href="#">BHS/Promotores de Salud Project</a></li>
+                <li><a href="#">BHS/South Bay Senior Services</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Residential</a></li>
+            <li><a href="#">Youth</a></li>
 
-  <div class="container-fluid" style="display: none">
-    <div class="row">
-      <!-- start aside section -->
-      <div class="sidenav text-left">
+            <li><a href="#">Detox</a></li>
 
-        <ul class="sidenav__topmenu">
-          <li class="sidenav__topmenu-link"><a href="#">Community Assessment Services Center</a></li>
-          <li class="sidenav__topmenu-link"><a href="#">Prevention &amp; Services for Older Adults</a></li>
-          <li class="sidenav__topmenu-link"><a href="#">BHS/Medicine Education Program</a></li>
-          <li class="sidenav__topmenu-link"><a href="#">BHS/Promotores de Salud Project</a></li>
-          <li class="sidenav__topmenu-link"><a href="#">BHS/South Bay Senior Services</a></li>
-        </ul>
+            <li><a href="#">Dental Health</a></li>
+          </ul>
+          p
+      </nav>
 
-        <ul class="sidenav__secondmenu">
+      <div class="sidebar__involved">
+        <h3 class="sidebar__title">Get Involved!</h3>
 
-          <li class="sidenav__secondmenu-link"><a href="#">Residential</a></li>
-
-
-          <li class="sidenav__secondmenu-link"><a href="#">Youth</a></li>
-
-          <li class="sidenav__secondmenu-link"><a href="#">Detox</a></li>
-
-          <li class="sidenav__secondmenu-link"><a href="#">Dental Health</a></li>
-
-        </ul>
-
-        <h3 class="sidenav__header--yellow">Get Involved!</h3>
-
-        <div class="card-block">
-          <div class="card-block__inline row">
-            <img class="card-block__side-img" src="img/get-involved.png" alt="Graduates">
-            <p class="card-block__text offset-md-6">
+            <img src="img/get-involved.png" alt="Graduates">
+            <p>
                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-               <br>
-               <br>
-              <a class="card-block__text-link" href="#">Click here for more</a>
+              <a href="#">Click here for more</a>
             </p>
-          </div>
-        </div>
-
+</div>
         <hr>
-
-        <h3>Success Stories</h3>
-          <div class="card-block">
-            <div class="card-block__inline row">
-              <img class="card-block__side-img" src="img/success.png" alt="Graduate">
-              <p class="card-block__text offset-md-6">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et <br><br>
-                <a class="card-block__text-link" href="#">Click here for more</a>
+<div class="sidebar__success">
+        <h3 class="sidebar__title">Success Stories</h3>
+              <img src="img/success.png" alt="Graduate">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et 
+                <a class="" href="#">Click here for more</a>
               </p>
-            </div>
-          </div>
 
-        <div class="donatebutton">
-          <a class="donatebutton__link" href="https://www.youtube.com/watch?v=NLZRYQMLDW4"><img class="donatebutton__image" src="img/donate.png" alt="Donate button"></a>
-        </div>
+          <a class="sidebar__btn" href="#"><img src="img/donate.png" alt="Donate button"></a>
+</div>
+    </aside>
 
-
-      <!-- end aside section here -->
-
-      <div class="col-md-9 text-left content row">
-
+      <main class="main-content">
         <h1 class="col-md-7">Services</h1>
+          <img class="main-content__hero" src="img/hero.png" alt="hero image">
+          <span class="main-content__founded">Since 1973</span>
 
-         <div class="container">
-          <img class="col-md-12" src="img/hero.png" alt="hero image">
-          <div id="top-right">Since 1973</div>
-        </div>
-
-      <div class="row">
-        <div class="col-md-6">
             <h2>Prevention &amp; Services for Older Adults</h2>
             <p>Older adults use more drugs than any other age group and are at a high
             risk for drug related problems. This unique health education
@@ -128,70 +102,66 @@
             California. Additional health promotion classes are also presented
             at eligible sites.</p>
             <p>For Service providers who work with the older adults, the program presents in-service training sessions and conferences to promote increased awareness and encourage the development of prevention and intervention strategies soutable for older clients.</p>
-        </div>
+      </main>
 
-        <div class="col-md-4">
-          <div class="well">
-            <img style="padding-bottom:10px" src="img/social-network.png" alt="">
-            <h3>Latest News <hr></h3>
-            <p><strong>Fish Oil May Have Positive Effecs on Mood, Alcohol
-              Craving, New Study Shows</strong>
-            <span style="color:#f89915">May 27, 2011 10:21 AM</span> <span style="color:#c2c1c0">by Science Daily</span></p>
-            <p style="line-height:200%; color:#767474">Omega 3 fatty acids may be beneficial for more than just the heart. Researchers at the Indiana University School of Medicine have found at a molecular level a potential therapeutic benefit from these dietary supplements for treating alcohol abuse and psychiatric disorders
-            <a style="font-size:12px; float:right; text-decoration:underline;
-              color:#205691" href="#">MORE</a></p>
-        </div>
-
-        <div class="well">
-            <h3><span>Recent Job Post</span><hr></h3>
-            <p><span style="color:#f89915">Updated May 12, 2011</span> <br>
-            <span style="color:#010101"><strong>932-Counselor I-HWD</strong></span> <br>
-            <a style="font-size:11px; text-decoration:underline; color:#22476e" href="#">Click here for more postings</a></p>
-        </div>
-        </div>
-      </div>
-      <!-- /.row -->
-      </div>
-
-    </div>
-  </div>
-
-<footer class="container-fluid text-center row" style="display: none">
-  <div class="col-md-3">
-    <h4 class="offset-md-2 col-md-8">About Us</h4>
-      <div class="col-md-10">
-        <li class="footer-font">Our History</li>
-        <li class="footer-font">About the CEO</li>
-        <li class="footer-font">Sed do eiusmod tempor</li>
-        <li class="footer-font">Ut labore et dolore magna</li>
-      </div>
-  </div>
-
-  <div class="col-md-3">
-    <h4 class="offset-md-2 col-md-8">Services</h4>
-      <div class="col-md-10">
-        <li class="footer-font">Success Stories</li>
-        <li class="footer-font">Prevention Services</li>
-        <li class="footer-font">Recovery Centers</li>
-        <li class="footer-font">Ut labore et dolore magna</li>
-      </div>
-  </div>
-
-  <div class="col-md-3 ">
-    <h4 class="col-md-12">Ways to Get Involved</h4>
-      <div class="col-md-12">
-        <li class="footer-font">Make a Donation</li>
-        <li class="footer-font">Become a Corporate Sponsor</li>
-        <li class="footer-font">Volunteer Your Time</li>
-        <li class="footer-font">Partner Your Agency With Ours</li>
-      </div>
-  </div>
-
-  <div class="col-md-3">
-    <img src="img/adp-logo.png" height="92px" width="92px" alt="">
-    <img src="img/carf-logo.png" height="89px" width="98px" alt="">
-  </div>
-
+      <aside class="social-media">
+        <article class="article">
+            <img src="img/social-network.png" alt="social networking">
+            <h3 class="article__title">Latest News</h3>
+            <h4 class="article__subtitle">Fish Oil May Have Positive Effects on Mood, Alcohol Craving,
+              New Study Shows</h4>
+            <h5 class="article__date">May 27, 2011 10:21 AM</h5> <h5
+              class="article__source">by
+              Science Daily</h5>
+            <p>Omega 3 fatty acids may be beneficial for more than just the
+            heart. Researchers at the Indiana University School of Medicine
+            have found at a molecular level a potential therapeutic benefit
+            from these dietary supplements for treating alcohol abuse and
+            psychiatric disorders. <a class="article__link" href="#">MORE</a></p>
+        </article>
+        <article class="job">
+            <h3 class="job__title">Recent Job Post</h3>
+            <h4 class="job__date">Updated May 12, 2011</h4>
+            <h4 class="job__source">932-Counselor I-HWD</h4>
+            <a class="article__link" href="#">Click here for more postings</a>
+        </article>
+      </aside>
+<footer class="footer">
+  <p>This is the footer</p>
+  <!-- <div class="col&#45;md&#45;3"> -->
+  <!--   <h4 class="offset&#45;md&#45;2 col&#45;md&#45;8">About Us</h4> -->
+  <!--     <div class="col&#45;md&#45;10"> -->
+  <!--       <li class="footer&#45;font">Our History</li> -->
+  <!--       <li class="footer&#45;font">About the CEO</li> -->
+  <!--       <li class="footer&#45;font">Sed do eiusmod tempor</li> -->
+  <!--       <li class="footer&#45;font">Ut labore et dolore magna</li> -->
+  <!--     </div> -->
+  <!-- </div> -->
+  <!--  -->
+  <!-- <div class="col&#45;md&#45;3"> -->
+  <!--   <h4 class="offset&#45;md&#45;2 col&#45;md&#45;8">Services</h4> -->
+  <!--     <div class="col&#45;md&#45;10"> -->
+  <!--       <li class="footer&#45;font">Success Stories</li> -->
+  <!--       <li class="footer&#45;font">Prevention Services</li> -->
+  <!--       <li class="footer&#45;font">Recovery Centers</li> -->
+  <!--       <li class="footer&#45;font">Ut labore et dolore magna</li> -->
+  <!--     </div> -->
+  <!-- </div> -->
+  <!--  -->
+  <!-- <div class="col&#45;md&#45;3 "> -->
+  <!--   <h4 class="col&#45;md&#45;12">Ways to Get Involved</h4> -->
+  <!--     <div class="col&#45;md&#45;12"> -->
+  <!--       <li class="footer&#45;font">Make a Donation</li> -->
+  <!--       <li class="footer&#45;font">Become a Corporate Sponsor</li> -->
+  <!--       <li class="footer&#45;font">Volunteer Your Time</li> -->
+  <!--       <li class="footer&#45;font">Partner Your Agency With Ours</li> -->
+  <!--     </div> -->
+  <!-- </div> -->
+  <!--  -->
+  <!-- <div class="col&#45;md&#45;3"> -->
+  <!--   <img src="img/adp&#45;logo.png" height="92px" width="92px" alt=""> -->
+  <!--   <img src="img/carf&#45;logo.png" height="89px" width="98px" alt=""> -->
+  <!-- </div> -->
 </footer>
 
 </div>

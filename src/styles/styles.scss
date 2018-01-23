@@ -1,23 +1,11 @@
 @import 'base/variables';
 @import 'base/base';
-@import 'components/wrapper';
+@import 'components/container';
+@import 'components/item';
 @import 'components/header';
-@import 'components/navbar';
+@import 'components/main-navbar';
 @import 'components/sidebar';
+@import 'components/news';
+@import 'components/jobs';
 @import 'components/footer';
 @import 'components/copyright';
-
-/* Set black background color, white text and some padding */
-
-// .outer-main {
-//   background-color: $light-blue;
-//   font-size: 1rem;
-//   height: 5.6rem;
-//   color: $white;
-// }
-
-// .row.content {
-//   height: 45rem;
-// }
-
-

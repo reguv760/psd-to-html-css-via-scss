@@ -1,13 +1,58 @@
-footer {
+.footer {
   background-color: $dark-blue;
   color: $white;
   padding: 1.5rem;
   height: auto;
+  display: flex;
+  justify-content:space-evenly;
+
+  nav
+  {
+    font-size: 1.4rem;
+    width:25%;
+    border-right: 1px solid $light-blue;
+
+    h4
+    {
+      font-size:1.6rem;
+      color:$off-white;
+      margin:1rem;
+      padding:0.5rem;
+      background-color:$light-blue;
+      width:80%;
+    }
+
+    ul
+    {
+      margin:0 0 0 0.5rem;
+      padding:0;
+      list-style-type: none;
+    }
+
+    li
+    {
+        margin:0.8rem 0;
+    }
+
+    li:before
+    {
+      content:". ";
+    }
+  }
+
+  &__sponsors
+  {
+    margin-top:0.4rem;
+    padding:0.5rem;
+    width:15%;
+  }
 }
 
-.footer-font {
-  font-size: 10.5px !important;
-}
+
+
+// .footer-font {
+
+// }
 
 // footer>img {
 //   float: center;

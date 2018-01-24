@@ -13,12 +13,12 @@
 
   .footer {
     grid-area: footer;
-    border: 5px solid blue;
+    // border: 5px solid blue;
   }
-  
+
   .main-nav {
     grid-area: main-nav;
-    border: 5px solid green;
+    // border: 5px solid green;
   }
 
   .sidebar {
@@ -38,7 +38,7 @@
 
   .header {
     grid-area: header;
-    border: 5px solid ;
+    // border: 5px solid ;
   }
 
 
@@ -47,7 +47,7 @@
         // grid-template-columns: repeat(12, 1fr);
       }
       .main-content  {
- grid-column: 1 / -1;
+        grid-column: 1 / -1;
       }
       .social-media, .sidebar {
         display: none;

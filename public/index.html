@@ -12,40 +12,40 @@
 <body>
   <div class="container">
     <header class="header item">
-            <!-- <img class="header__logo" src="./img/bhs&#45;logo.png" width="119" height="119" /> -->
+      <img class="header__logo" src="./img/bhs-logo.png" />
 
-            <nav class="header__nav--top">
-              <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="faq.html">FAQ</a></li>
-                <li><a href="contact.html">Contact</a></li>
-              </ul>
-            </nav>
+      <nav class="header__nav--top">
+        <ul>
+          <li class="header__nav-link"><a href="index.html">Home</a></li>
+          <li class="header__nav-link"><a href="about.html">About</a></li>
+          <li class="header__nav-link"><a href="faq.html">FAQ</a></li>
+          <li class="header__nav-link--last"><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
 
-            <img class="header__facebook" src="img/facebook.png" alt="facebook
-            icon" width="126" height="40" />
-            <img class="header__search" src="img/search.png" width="256"
-                                                          height="29" alt="search form"
-             />
-            <img class="header__donate" src="img/donate-arrow.png"
-            alt="Donate" width="242" height="34" />
+      <img class="header__facebook" src="img/facebook.png" alt="facebook
+          icon" />
+      <img class="header__search" src="img/search.png"alt="search form"
+           />
+      <img class="header__donate" src="img/donate-arrow.png"
+          alt="Donate"/>
     </header>
+
     <nav class="main-nav">
       <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About Us</a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">What is Addiction</a></li>
-        <li><a href="#">Make an Appointment</li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="#" class="main-nav__link">Home</a></li>
+        <li><a href="#" class="main-nav__link">About Us</a></li>
+        <li><a href="#" class="main-nav__link">Services</a></li>
+        <li><a href="#" class="main-nav__link">What is Addiction</a></li>
+        <li><a href="#" class="main-nav__link">Make an Appointment</li>
+        <li><a href="#" class="main-nav__link-last">Contact</a></li>
       </ul>
     </nav>
 
     <aside class="sidebar">
       <p>This is the sidebar</p>
       <nav class="sidebar__nav">
-      
+
           <ul>
             <li><a href="#">Community Assessment Services Center</a>
               <ul>
@@ -74,12 +74,12 @@
             </p>
       </div>
         <hr>
-        
+
       <div class="sidebar__success">
         <h3 class="sidebar__title">Success Stories</h3>
               <img src="img/success.png" alt="Graduate">
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et 
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
                 <a class="" href="#">Click here for more</a>
               </p>
 
@@ -127,47 +127,48 @@
         </article>
       </aside>
 <footer class="footer">
-  <p>This is the footer</p>
-  <!-- <div class="col&#45;md&#45;3"> -->
-  <!--   <h4 class="offset&#45;md&#45;2 col&#45;md&#45;8">About Us</h4> -->
-  <!--     <div class="col&#45;md&#45;10"> -->
-  <!--       <li class="footer&#45;font">Our History</li> -->
-  <!--       <li class="footer&#45;font">About the CEO</li> -->
-  <!--       <li class="footer&#45;font">Sed do eiusmod tempor</li> -->
-  <!--       <li class="footer&#45;font">Ut labore et dolore magna</li> -->
-  <!--     </div> -->
-  <!-- </div> -->
-  <!--  -->
-  <!-- <div class="col&#45;md&#45;3"> -->
-  <!--   <h4 class="offset&#45;md&#45;2 col&#45;md&#45;8">Services</h4> -->
-  <!--     <div class="col&#45;md&#45;10"> -->
-  <!--       <li class="footer&#45;font">Success Stories</li> -->
-  <!--       <li class="footer&#45;font">Prevention Services</li> -->
-  <!--       <li class="footer&#45;font">Recovery Centers</li> -->
-  <!--       <li class="footer&#45;font">Ut labore et dolore magna</li> -->
-  <!--     </div> -->
-  <!-- </div> -->
-  <!--  -->
-  <!-- <div class="col&#45;md&#45;3 "> -->
-  <!--   <h4 class="col&#45;md&#45;12">Ways to Get Involved</h4> -->
-  <!--     <div class="col&#45;md&#45;12"> -->
-  <!--       <li class="footer&#45;font">Make a Donation</li> -->
-  <!--       <li class="footer&#45;font">Become a Corporate Sponsor</li> -->
-  <!--       <li class="footer&#45;font">Volunteer Your Time</li> -->
-  <!--       <li class="footer&#45;font">Partner Your Agency With Ours</li> -->
-  <!--     </div> -->
-  <!-- </div> -->
-  <!--  -->
-  <!-- <div class="col&#45;md&#45;3"> -->
-  <!--   <img src="img/adp&#45;logo.png" height="92px" width="92px" alt=""> -->
-  <!--   <img src="img/carf&#45;logo.png" height="89px" width="98px" alt=""> -->
-  <!-- </div> -->
-</footer>
+  <nav class="footer__about-nav">
+    <h4>About</h4>
+    <ul>
+      <li class="footer__nav-link">Our History</li>
+      <li class="footer__nav-link">About the CEO</li>
+      <li class="footer__nav-link">Sed do eiusmod tempor</li>
+      <li class="footer__nav-link">Ut labore et dolore magna</li>
+    </ul>
 
-</div>
-<!-- /.container -->
-<p class="copyright" style="display:none">Copyright Behavioral Health Services &Copy 2011. All Rights Reserved.</p>
+  </nav>
 
-<script src="/dist/bundle.js"></script>
+  <nav class="footer__services-nav">
+    <h4>Services</h4>
+    <ul>
+      <li class="footer__nav-link">Success Stories</li>
+      <li class="footer__nav-link">Prevention Services</li>
+      <li class="footer__nav-link">Recovery Centers</li>
+      <li class="footer__nav-link">Ut labore et dolore magna</li>
+    </ul>
+  </nav>
+
+   <nav class="footer__involved-nav">
+    <h4>Ways to Get Involved</h4>
+    <ul>
+      <li class="footer__nav-link">Make a Donation</li>
+      <li class="footer__nav-link">Become a Corporate Sponsor</li>
+      <li class="footer__nav-link">Volunteer Your Time</li>
+      <li class="footer__nav-link">Partner Your Agency With Ours</li>
+    </ul>
+  </nav>
+
+  <div class="footer__sponsors">
+    <img src="img/adp-logo.png" alt=""> <!-- height="92px" width="92px" -->
+    <img src="img/carf-logo.png" alt=""> <!-- height="89px" width="98px" -->
+  </div>
+
+  </footer>
+
+  </div>
+  <!-- /.container -->
+  <p class="copyright" style="display:none">Copyright Behavioral Health Services &Copy 2011. All Rights Reserved.</p>
+
+  <script src="/dist/bundle.js"></script>
 </body>
 </html>

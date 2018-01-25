@@ -9,36 +9,32 @@
     position: absolute;
     top: 1rem;
     left: 2rem;
-
-    img
-    {
-      width:100%;
-    }
   }
 
   &__nav--top
   {
     margin:0;
     padding:0;
+  }
 
-    ul
-    {
-      list-style-type: none;
+  &__nav-container
+  {
+    list-style-type: none;
+  }
+
+  &__nav-link,
+  &__nav-link--last
+  {
+    display:inline-block;
+
+    a {
+      text-decoration: none;
+      color: $white;
     }
 
-    li
+    a:hover
     {
-      display:inline-block;
-
-      a {
-        text-decoration: none;
-        color: $white;
-      }
-
-      a:hover
-      {
-        color:$orange;
-      }
+      color:$orange;
     }
   }
 
@@ -49,18 +45,9 @@
     content:"|";
   }
 
-  &__facebook
-  {
-  }
-
-  &__search
-  {
-
-  }
-
-  &__donate
-  {
-  }
+  &__facebook { }
+  &__search { }
+  &__donate { }
 
 }
 
